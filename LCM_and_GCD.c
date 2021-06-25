@@ -10,6 +10,7 @@ int gcd(int a, int b)
 int main()
 {
     int a, b;
+    printf("Enter 2 numbers:");
     scanf("%d%d", &a, &b);
     printf("GCD of %d and %d is %d ", a, b, gcd(a, b));
     printf("\nLCM of %d and %d is %d ", a, b, a * b / gcd(a, b));
