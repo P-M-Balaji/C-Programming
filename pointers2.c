@@ -8,7 +8,7 @@ int main()
     for (i = 0; i < 5; i++)
     {
         printf("%d\t", &a[i]);
-        printf("%d\t", &p[i]);
+        printf("%d\t", a + i);
         printf("%d\t", p + i);
         printf("%d\t", &i[a]);
         printf("%d\t", &p[i]);
